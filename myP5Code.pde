@@ -5,6 +5,7 @@ void setup() {
 }
 
 
+
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   fill(255,255,255);
@@ -14,8 +15,11 @@ void draw(){
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
+  rect(210,100,20,20);
+  rect(180,100,20,20);
   
-
+  line(100,100,165,165);
+  line(235,165,275,100);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
